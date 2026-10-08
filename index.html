@@ -20,10 +20,6 @@
         --white: #ffffff;
         --gold: #d9b15b;
         --shadow: 0 12px 30px rgba(18, 58, 91, 0.09);
-        --uniform-sweater: #dfe3e8;
-        --uniform-shirt: #cfe5f9;
-        --uniform-trouser: #4d5866;
-        --uniform-dress: #4d5866;
       }
 
       * {
@@ -143,6 +139,12 @@
         color: var(--white);
         font-size: 1.2rem;
         font-weight: 700;
+        box-shadow: 0 10px 18px rgba(18, 58, 91, 0.18);
+      }
+
+      .brand-text {
+        font-size: 1.08rem;
+        line-height: 1;
       }
 
       .nav-links {
@@ -380,57 +382,6 @@
         margin: 0;
         color: var(--muted);
         font-size: 0.96rem;
-      }
-
-      /* Uniform */
-      .uniform {
-        background: #f2f7fb;
-      }
-
-      .uniform-grid {
-        display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 22px;
-      }
-
-      .uniform-card {
-        background: var(--white);
-        border: 1px solid rgba(18, 58, 91, 0.08);
-        border-radius: 24px;
-        padding: 26px 20px;
-        box-shadow: 0 10px 24px rgba(18, 58, 91, 0.04);
-      }
-
-      .swatch {
-        width: 100%;
-        height: 120px;
-        border-radius: 18px;
-        margin-bottom: 18px;
-        border: 1px solid rgba(18, 58, 91, 0.08);
-      }
-
-      .sweater-swatch {
-        background: var(--uniform-sweater);
-      }
-
-      .shirt-swatch {
-        background: var(--uniform-shirt);
-      }
-
-      .trouser-swatch,
-      .dress-swatch {
-        background: var(--uniform-trouser);
-      }
-
-      .uniform-card h3 {
-        color: var(--navy);
-        margin: 0 0 10px;
-        font-size: 1.22rem;
-      }
-
-      .uniform-card p {
-        margin: 0;
-        color: var(--muted);
       }
 
       /* Why choose us */
@@ -689,8 +640,7 @@
           display: grid;
         }
 
-        .program-grid,
-        .uniform-grid {
+        .program-grid {
           grid-template-columns: repeat(2, minmax(0, 1fr));
         }
 
@@ -714,7 +664,6 @@
         }
 
         .program-grid,
-        .uniform-grid,
         .footer-grid {
           grid-template-columns: 1fr;
         }
@@ -756,15 +705,14 @@
   <body>
     <header>
       <div class="container nav">
-        <div class="brand">
+        <div class="brand" aria-label="Bright Horizon Academy logo">
           <div class="brand-mark">BH</div>
-          <span>Bright Horizon</span>
+          <span class="brand-text">Bright Horizon</span>
         </div>
 
         <nav class="nav-links" aria-label="Main navigation">
           <a href="#about">About</a>
           <a href="#programs">Academics</a>
-          <a href="#uniform">Uniform</a>
           <a href="#student-life">Student Life</a>
           <a href="#admissions">Admissions</a>
           <a href="#community">Community</a>
@@ -914,41 +862,6 @@
                 Service learning, outreach, and collaboration build empathy and a
                 strong sense of belonging.
               </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section uniform" id="uniform">
-        <div class="container">
-          <div style="text-align: center; margin-bottom: 36px;">
-            <span class="eyebrow">School uniform</span>
-            <h2 class="section-title">Smart, comfortable, and proudly consistent</h2>
-          </div>
-
-          <div class="uniform-grid">
-            <article class="uniform-card">
-              <div class="swatch sweater-swatch"></div>
-              <h3>Light Grey Sweater</h3>
-              <p>Warm, neat, and polished for cooler days on campus.</p>
-            </article>
-
-            <article class="uniform-card">
-              <div class="swatch shirt-swatch"></div>
-              <h3>Light Blue Shirts</h3>
-              <p>Fresh, bright, and comfortable for everyday learning.</p>
-            </article>
-
-            <article class="uniform-card">
-              <div class="swatch trouser-swatch"></div>
-              <h3>Dark Grey Trousers</h3>
-              <p>Classic, durable, and perfectly suited for active school days.</p>
-            </article>
-
-            <article class="uniform-card">
-              <div class="swatch dress-swatch"></div>
-              <h3>Dark Grey Dresses</h3>
-              <p>Professional and elegant while remaining practical and easy to wear.</p>
             </article>
           </div>
         </div>
