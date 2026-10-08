@@ -1,0 +1,375 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cheptuya Senior School | Home</title>
+    <meta
+      name="description"
+      content="Cheptuya Senior School — academic excellence, holistic development, community engagement, and future readiness."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">CS</span>
+          <span>Cheptuya Senior School</span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav-links">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+          <a href="academics.html">Academics</a>
+          <a href="admissions.html">Admissions</a>
+          <a href="contact.html">Contact</a>
+          <a href="admissions.html" class="nav-button">Apply Now</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <span class="eyebrow">Academic Excellence</span>
+            <h1>Shaping confident minds for a brighter future.</h1>
+            <p>
+              At Cheptuya Senior School, we nurture academic excellence,
+              personal growth, strong values, and future-ready skills so every
+              learner can thrive with purpose and confidence.
+            </p>
+
+            <div class="hero-actions">
+              <a href="academics.html" class="btn btn-primary">Explore Programs</a>
+              <a href="about.html" class="btn btn-secondary">Learn More</a>
+            </div>
+
+            <div class="hero-stats">
+              <div class="stat">
+                <strong>98%</strong>
+                <span>Parent satisfaction</span>
+              </div>
+              <div class="stat">
+                <strong>25+</strong>
+                <span>Activities</span>
+              </div>
+              <div class="stat">
+                <strong>12:1</strong>
+                <span>Support ratio</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-card">
+              <img
+                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80"
+                alt="Students learning together"
+              />
+            </div>
+
+            <div class="floating-badge">
+              <div class="badge-label">Student Growth</div>
+              <div class="badge-score">+42%</div>
+              <div class="badge-sub">Academic confidence in recent years</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container mission-grid">
+          <div class="mission-copy">
+            <span class="eyebrow">Our mission</span>
+            <h2>Empowering students to learn, lead, and thrive.</h2>
+            <p>
+              Cheptuya Senior School is a place where learners grow in
+              confidence, character, and capability. We blend rigorous
+              academics with holistic development and community values.
+            </p>
+            <p>
+              Our students are encouraged to think critically, act with
+              integrity, and prepare for life beyond the classroom with courage
+              and purpose.
+            </p>
+
+            <div class="mission-points">
+              <div class="point">
+                <strong>Academic Excellence</strong>
+                <span>Strong foundations for success and lifelong learning.</span>
+              </div>
+              <div class="point">
+                <strong>Holistic Growth</strong>
+                <span>Wellbeing, confidence, and personal development matter.</span>
+              </div>
+              <div class="point">
+                <strong>Community</strong>
+                <span>Belonging, service, and shared responsibility.</span>
+              </div>
+              <div class="point">
+                <strong>Future Readiness</strong>
+                <span>Innovation, digital literacy, and practical problem-solving.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mission-visual">
+            <img
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+              alt="Students collaborating"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section programs">
+        <div class="container">
+          <div class="section-heading center">
+            <span class="eyebrow">Our Focus</span>
+            <h2 class="section-title">Nurturing excellence in every stage of learning</h2>
+          </div>
+
+          <div class="program-grid">
+            <article class="program-card">
+              <div class="icon">✦</div>
+              <h3>Academic Excellence</h3>
+              <p>
+                Engaging and rigorous learning that builds understanding,
+                curiosity, and confidence.
+              </p>
+            </article>
+
+            <article class="program-card">
+              <div class="icon">◎</div>
+              <h3>Whole-Person Growth</h3>
+              <p>
+                Character, leadership, wellbeing, and resilience are nurtured
+                alongside academics.
+              </p>
+            </article>
+
+            <article class="program-card">
+              <div class="icon">⚡</div>
+              <h3>Innovation & STEM</h3>
+              <p>
+                Students build digital confidence and practical problem-solving
+                skills for the future.
+              </p>
+            </article>
+
+            <article class="program-card">
+              <div class="icon">✉</div>
+              <h3>Community Engagement</h3>
+              <p>
+                Service learning and meaningful community connection grow
+                empathy and responsibility.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading center">
+            <span class="eyebrow">Why Families Choose Us</span>
+            <h2 class="section-title">A balanced education that supports every student</h2>
+          </div>
+
+          <div class="features-grid">
+            <div class="feature">
+              <div class="feature-icon">✓</div>
+              <h3>Personalized Support</h3>
+              <p>
+                Every learner is known, encouraged, and supported toward
+                meaningful growth.
+              </p>
+            </div>
+
+            <div class="feature">
+              <div class="feature-icon">✦</div>
+              <h3>Strong Values</h3>
+              <p>
+                Integrity, respect, accountability, and discipline are at the
+                heart of school life.
+              </p>
+            </div>
+
+            <div class="feature">
+              <div class="feature-icon">◌</div>
+              <h3>Creative Opportunities</h3>
+              <p>
+                Arts, leadership, sports, and technology create room for every
+                student to shine.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experience">
+        <div class="container experience-grid">
+          <div class="experience-photo">
+            <img
+              src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=900&q=80"
+              alt="Students in a classroom"
+            />
+          </div>
+
+          <div class="experience-copy">
+            <span class="eyebrow">Student Experience</span>
+            <h2>Learning that inspires confidence and purpose.</h2>
+            <p>
+              We foster a supportive environment where students are encouraged
+              to think critically, act responsibly, and grow with courage.
+            </p>
+
+            <ul class="experience-list">
+              <li>
+                <span class="check">✓</span>
+                <span>Inquiry-led learning that develops curiosity and understanding.</span>
+              </li>
+              <li>
+                <span class="check">✓</span>
+                <span>Leadership and service opportunities that build character.</span>
+              </li>
+              <li>
+                <span class="check">✓</span>
+                <span>Technology and creative learning for future readiness.</span>
+              </li>
+              <li>
+                <span class="check">✓</span>
+                <span>Safe, inclusive, and nurturing community for every learner.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading center">
+            <span class="eyebrow">Parent & Student Voices</span>
+            <h2 class="section-title">Trusted by families who value growth and excellence</h2>
+          </div>
+
+          <div class="testimonials-grid">
+            <article class="testimonial">
+              <div class="stars">★★★★★</div>
+              <p>
+                “Cheptuya Senior School has helped our child grow in confidence,
+                discipline, and academic focus. The school genuinely cares
+                about the whole child.”
+              </p>
+              <div class="person">
+                <div class="avatar">A</div>
+                <div>
+                  <strong>Mrs. Achieng</strong>
+                  <span>Parent</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial">
+              <div class="stars">★★★★★</div>
+              <p>
+                “I feel supported and challenged every day. The teachers
+                encourage us to do our best and become leaders in our own way.”
+              </p>
+              <div class="person">
+                <div class="avatar">J</div>
+                <div>
+                  <strong>John</strong>
+                  <span>Student</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial">
+              <div class="stars">★★★★★</div>
+              <p>
+                “The school combines strong academic standards with care,
+                values, and community engagement. It prepares students for life
+                beyond school.”
+              </p>
+              <div class="person">
+                <div class="avatar">M</div>
+                <div>
+                  <strong>Mr. Kibet</strong>
+                  <span>Parent</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="contact">
+        <div class="container">
+          <div class="cta-box">
+            <div>
+              <h3>Ready to be part of a school that develops the whole learner?</h3>
+              <p>Discover how Cheptuya Senior School can support your child’s future.</p>
+            </div>
+
+            <div class="cta-actions">
+              <a href="admissions.html" class="btn btn-primary">Book a Tour</a>
+              <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-branding">
+          <div class="footer-brand">Cheptuya Senior School</div>
+          <p>
+            Inspiring academic excellence, character, and future-ready learners.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>School</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="contact.html">School Life</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Admissions</h4>
+          <ul>
+            <li><a href="admissions.html">Apply</a></li>
+            <li><a href="admissions.html">Visit Campus</a></li>
+            <li><a href="contact.html">Testimonials</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li>123 Cheptuya Road</li>
+            <li>info@cheptuyasenior.ac.ke</li>
+            <li>+254 700 000 000</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        © 2026 Cheptuya Senior School. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
